@@ -1,0 +1,123 @@
+.specials-section {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+  }
+  
+  .specials-title {
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .specials-button {
+    background-color: #F4CE14; /* Secondary color */
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .specials-button:hover {
+    background-color: #e3ba0e; /* Darker shade for hover effect */
+  }
+  
+  .specials-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .special-card {
+    background-color: white;
+    width: calc(33% - 20px);
+    margin: 10px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Make it a flex container with column direction */
+  }
+  
+  .special-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+  }
+  
+  .special-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure it occupies full height of the card */
+  }
+  
+  .special-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .special-title {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    color: #495E57;
+  }
+  
+  .special-price {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #EE9972;
+  }
+  
+  .special-description {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    flex-grow: 1;
+  }
+  
+  .special-order {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: auto;
+    cursor: pointer;
+  }
+  
+  .special-order:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 900px) {
+    .special-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .special-card {
+      width: 100%;
+    }
+  }
+  

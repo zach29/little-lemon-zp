@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  font-family: 'Karla', sans-serif; /* v2 */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 16px; /* v2 */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,6 +39,73 @@
   }
 }
 
+/* Updated styles for the new layout */
+header {
+  display: flex;
+  justify-content: center; /* Center the navigation and logo */
+  align-items: center;
+  background-color: white; /* Updated background color */
+  color: black;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  max-width: 100px;
+  margin-right: 20px; /* Space between the logo and nav items */
+  border-radius: 16px; /* v2 */
+}
+
+/* Increase logo size on larger screens */
+@media (min-width: 768px) {
+  header img {
+    max-width: 150px; /* Increase size for larger screens */
+  }
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row; /* Ensure items are in a row by default */
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black; /* Updated link color */
+  font-family: 'Karla', sans-serif; /* v2 */
+  font-weight: bold; /* v2 */
+  font-size: 20px; /* v2 */
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  width: 80%; /* v2 */
+  margin: 20px 0; /* v2 */
+  padding: 20px; /* v2 */
+  border: 1px solid #ddd; /* v2 */
+  background-color: #f9f9f9; /* v2 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* v2 */
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -51,10 +120,13 @@ footer {
 
 .footer-column img {
   max-width: 100px;
+  border-radius: 16px; /* v2 */
 }
 
 .footer-column h2 {
   margin-bottom: 10px;
+  font-family: 'Markazi Text', serif; /* v2 */
+  color: #495E57; /* v2 */
 }
 
 .footer-column ul {
@@ -68,9 +140,60 @@ footer {
 
 .footer-column ul li a {
   text-decoration: none;
-  color: #333;
+  color: #495E57; /* v2 */
 }
 
 .footer-column ul li a:hover {
   text-decoration: underline;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  header img {
+    margin: 0 0 10px 0;
+  }
+
+  header nav ul {
+    flex-direction: column; /* v2 */
+    justify-content: center;
+    width: 100%;
+  }
+
+  header nav ul li {
+    margin: 10px 0; /* v2 */
+  }
+}
+
+/* v2 New styles for headings, paragraphs, and spans */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Markazi Text', serif; /* v2 */
+  color: #495E57; /* v2 */
+  margin: 10px 0; /* v2 */
+  line-height: 1.2; /* v2 */
+}
+
+p {
+  font-family: 'Karla', sans-serif; /* v2 */
+  color: #333; /* v2 */
+  margin: 10px 0; /* v2 */
+  line-height: 1.5; /* v2 */
+}
+
+span {
+  font-family: 'Karla', sans-serif; /* v2 */
+  color: #333; /* v2 */
+}
+
+
+/* v2 Box shadow for div, article, aside */
+article, aside {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* v2 */
+  padding: 20px; /* v2 */
+  margin: 20px 0; /* v2 */
+  background-color: #fff; /* v2 */
 }

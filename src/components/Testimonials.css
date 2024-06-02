@@ -1,0 +1,86 @@
+.testimonials-section {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonials-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials-title {
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .testimonial-card {
+    background-color: white;
+    width: calc(25% - 20px);
+    margin: 10px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .testimonial-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .testimonial-details {
+    padding: 20px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating-label {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .star-icon {
+    width: 20px; /* Adjust size as needed */
+  }
+  
+  .rating-number {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-left: 5px;
+  }
+  
+  .submitter-name {
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #495E57;
+  }
+  
+  .actual-rating {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .testimonial-description {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  

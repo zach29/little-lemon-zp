@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-column">
-        <img src={`${process.env.PUBLIC_URL}/assets/logo.png`} alt="Little Lemon Logo" />
+        <img src={`${process.env.PUBLIC_URL}/assets/footer-image.jpg`} alt="Little Lemon" />
       </div>
       <div className="footer-column">
         <h2>Navigation</h2>

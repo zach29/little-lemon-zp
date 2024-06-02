@@ -1,0 +1,63 @@
+.welcome-section {
+    width: 100%; /* v2: Take the full width of the parent */
+    background-color: #495E57; /* Primary color */
+    padding: 20px 0; /* v2: Padding on top and bottom */
+  }
+  .welcome-content-wrapper {
+    max-width: 1200px; /* v2: Maximum width for the centered content */
+    margin: 0 auto; /* v2: Center the content */
+    display: flex; /* v2: Flexbox for layout */
+    justify-content: space-between; /* v2: Space between content and image */
+    align-items: center; /* v2: Center items vertically */
+    background-color: #495E57; /* Primary color */
+  }
+
+  .welcome-content {
+    flex: 1;
+    color: white;
+    padding-right: 20px;
+    background-color: #495E57; /* Primary color */
+  }
+
+  .welcome-title {
+    font-family: 'Markazi Text', serif; /* v2 */
+    font-size: 80px; /* v2 */
+    font-weight: bold; /* v2 */
+    color: #F4CE14; /* Secondary color */
+  }
+
+  .welcome-subtitle {
+    font-family: 'Markazi Text', serif; /* v2 */
+    font-size: 64px; /* v2 */
+    color: white; /* v2 */
+  }
+
+  .welcome-text {
+    font-family: 'Karla', sans-serif; /* v2 */
+    font-size: 16px; /* v2 */
+    color: white; /* v2 */
+    margin-bottom: 20px;
+  }
+
+  .welcome-button {
+    background-color: #F4CE14; /* Secondary color */
+    color: black; /* Button text color */
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .welcome-button:hover {
+    background-color: #e3ba0e; /* Darker shade for hover effect */
+  }
+
+  .welcome-image img {
+    max-width: 400px; /* Adjust as needed */
+    max-height: 500px; 
+    border-radius: 16px; /* v2 */
+    background-color: #495E57; /* Primary color */
+  }
