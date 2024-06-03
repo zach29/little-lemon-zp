@@ -110,7 +110,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #495E57;
 }
 
 .footer-column {
@@ -119,14 +119,21 @@ footer {
 }
 
 .footer-column img {
-  max-width: 100px;
+  max-width: 200px;
+  max-height: 200px;
   border-radius: 16px; /* v2 */
 }
 
 .footer-column h2 {
   margin-bottom: 10px;
   font-family: 'Markazi Text', serif; /* v2 */
-  color: #495E57; /* v2 */
+  color: #F4CE14; /* v2 */
+}
+
+.footer-column p {
+  margin-bottom: 10px;
+  font-family: 'Markazi Text', serif; /* v2 */
+  color: #ffffff; /* v2 */
 }
 
 .footer-column ul {
@@ -140,7 +147,7 @@ footer {
 
 .footer-column ul li a {
   text-decoration: none;
-  color: #495E57; /* v2 */
+  color: #ffffff; /* v2 */
 }
 
 .footer-column ul li a:hover {

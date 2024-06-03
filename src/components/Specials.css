@@ -4,6 +4,12 @@
     background-color: #f9f9f9;
   }
   
+  .specials-title {
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    color: #000000;
+  }
+
   .specials-header {
     display: flex;
     justify-content: space-between;
@@ -13,11 +19,6 @@
     padding: 0 20px;
   }
   
-  .specials-title {
-    font-family: 'Markazi Text', serif;
-    font-size: 40px;
-    color: #000000;
-  }
   
   .specials-button {
     background-color: #F4CE14; /* Secondary color */

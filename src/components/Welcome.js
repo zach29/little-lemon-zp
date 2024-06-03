@@ -8,7 +8,7 @@ function Welcome() {
         <div className="welcome-content">
           <h1 className="welcome-title">Little Lemon</h1>
           <h2 className="welcome-subtitle">Chicago</h2>
-          <p className="welcome-text">Placeholder text goes here. This is where the welcome message will be displayed.</p>
+          <p className="welcome-text">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. </p>
           <a href="/reserve" className="welcome-button">Reserve a Table</a>
         </div>
         <div className="welcome-image">

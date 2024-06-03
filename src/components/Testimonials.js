@@ -3,25 +3,21 @@ import './Testimonials.css';
 
 const testimonialsData = [
   {
-    image: `${process.env.PUBLIC_URL}/assets/greeksalad.jpg`,
     name: 'Johnny',
     rating: '5.0',
     description: 'Awesome service!',
   },
   {
-    image: `${process.env.PUBLIC_URL}/assets/greeksalad.jpg`,
     name: 'Whitney',
     rating: '5.0',
     description: 'Great atmosphere for family and friends.',
   },
   {
-    image: `${process.env.PUBLIC_URL}/assets/greeksalad.jpg`,
     name: 'Karen',
     rating: '4.9',
     description: 'Delicious!',
   },
   {
-    image: `${process.env.PUBLIC_URL}/assets/greeksalad.jpg`,
     name: 'Cybil',
     rating: '5.0',
     description: '10/10 will eat here again',
@@ -37,15 +33,15 @@ function Testimonials() {
       <div className="testimonial-cards">
         {testimonialsData.map((testimonial, index) => (
           <div className="testimonial-card" key={index}>
-            <img src={testimonial.image} alt={testimonial.title} className="testimonial-image" />
             <div className="testimonial-details">
               <div className="rating">
-                <p className="rating-label">Rating:</p>
-                <img src={`${process.env.PUBLIC_URL}/assets/star.png`} alt="Star" className="star-icon" />
-                <span className="rating-number">{testimonial.rating}</span>
+                <span className="rating-label">Rating:</span>
+                <img src={`${process.env.PUBLIC_URL}/assets/star.jpg`} alt="Star" className="star-icon" />
               </div>
-              <h3 className="submitter-name">{testimonial.name}</h3>
-              <p className="actual-rating">Rating: {testimonial.rating}</p>
+              <div className="submitter-info">
+                <span className="submitter-name">{testimonial.name}</span>
+                <span className="actual-rating">{testimonial.rating}</span>
+              </div>
               <p className="testimonial-description">{testimonial.description}</p>
             </div>
           </div>
@@ -56,3 +52,4 @@ function Testimonials() {
 }
 
 export default Testimonials;
+

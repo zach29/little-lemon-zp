@@ -22,8 +22,7 @@ function Footer() {
         <p>Email: info@littlelemon.com</p>
       </div>
       <div className="footer-column">
-        <h2>Make Up</h2>
-        <p>This column can contain any additional information you want to include.</p>
+        <img src={`${process.env.PUBLIC_URL}/assets/logo.png`} alt="Little Lemon Logo" />
       </div>
     </footer>
   );
