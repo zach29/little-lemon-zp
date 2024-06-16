@@ -1,0 +1,56 @@
+/* BookTablePage.css */
+
+.book-table-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f5f5f5;
+  }
+  
+  .book-table-form-container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-table-form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .book-table-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-table-form input[type="text"],
+  .book-table-form input[type="email"],
+  .book-table-form input[type="tel"],
+  .book-table-form input[type="date"],
+  .book-table-form input[type="time"],
+  .book-table-form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .book-table-form button {
+    background-color: #F4CE14;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-table-form button:hover {
+    background-color: #e3ba0e;
+  }
+  

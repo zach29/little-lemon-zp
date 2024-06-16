@@ -107,10 +107,16 @@ main section {
 }
 
 footer {
+  background-color: #495E57; /* Green background for full width */
+  padding: 20px 0;
+}
+
+.footer-content {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  background-color: #495E57;
+  align-items: center;
+  width: 70%; /* Match the main section width for consistent layout */
+  margin: 0 auto; /* Center the content horizontally */
 }
 
 .footer-column {
@@ -152,6 +158,18 @@ footer {
 
 .footer-column ul li a:hover {
   text-decoration: underline;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px; /* Add spacing between columns on mobile */
+  }
 }
 
 /* Responsive styles for mobile devices */
@@ -203,4 +221,19 @@ article, aside {
   padding: 20px; /* v2 */
   margin: 20px 0; /* v2 */
   background-color: #fff; /* v2 */
+}
+
+
+/* Example styles for the welcome-button class */
+.nav-button {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.nav-button:hover {
+  text-decoration: underline;
 }
